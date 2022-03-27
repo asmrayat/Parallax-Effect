@@ -7,6 +7,7 @@ timeline
     .fromTo(".bg", { y: -50 }, { y: 0, duration: 10 }, "-=10")
     .fromTo(".container", { opacity: 1 }, { opacity: 0, duration: 10 }, "-=10")
     .to(".content", 10, { top: "0%" }, "-=10")
+    .fromTo(".content", { opacity: 0 }, { opacity: 1, duration: 10 }, "-=10")
     .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 3 })
     .fromTo(".text", { opacity: 0 }, { opacity: 1, duration: 3 });
 
